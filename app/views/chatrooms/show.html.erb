@@ -1,0 +1,6 @@
+<h2><%= @chatroom.name %></h2>
+
+<%= react_component "Chatroom",
+      props: {chatroom: render(
+                partial: "chatrooms/chatroom.json",
+                locals: { chatroom: @chatroom })} %>

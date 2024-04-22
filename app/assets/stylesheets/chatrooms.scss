@@ -1,0 +1,52 @@
+body{
+  width: 600px;
+  margin:auto;
+  font-family: sans-serif;
+}
+
+h1 a {
+  text-decoration: none; 
+  color: darkred;
+}
+
+.adbar {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  a {
+    color: black;
+  }
+}
+
+
+input[name='body'] {
+  width:90%;
+}
+
+input[type='submit'] {
+  background: black;
+  color: white;
+  outline: none;
+  border: 0;
+  border:none;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#messages {
+  border: solid 1px #EAEAEA;
+  padding: 20px;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.messageForm {
+  margin-bottom: 20px;
+}
+
+.chatbot {
+  color: #777;
+  font-style: italic;
+}
+
